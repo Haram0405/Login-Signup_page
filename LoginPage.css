@@ -1,0 +1,94 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url(bg-pic4.png);
+    display: flex;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'times new roman';
+}
+
+.container{
+    width: 420px;
+    background: rgba(83, 81, 81, 0.473);
+    color:black;
+    border-radius: 10px;
+    padding: 30px 40px;
+    box-shadow: black;
+}
+
+.header{
+    text-align: center;
+    padding: 10px;
+    color: white ;
+}
+.input-box {
+    padding: 10px;
+}
+.input-box input{
+    background-color: rgba(131, 126, 126, 0.336);
+    padding: 10px;
+    width: 100%;
+    height: 100%;
+    border: solid;
+    border-width: 2px;
+    border-radius: 17px;
+    border-color: rgba(0, 0, 0, 0.479);
+}
+.input-box input::placeholder{
+    font-style: italic;
+    color: rgb(163, 160, 160);
+}
+.input-box input:hover{
+    background-color: transparent;
+}
+.Rememberme{
+    padding: 10px;
+    
+}
+
+.Rememberme a{
+    color: black;
+    margin-left: 80px;
+}
+.footer{
+    padding: 20px;
+    margin: 15px;
+    align-items: center;
+}
+.footer a{
+    color: black;
+}
+
+.footer button{
+    background-color: rgba(131, 126, 126, 0.336);
+    color: black;
+    align-items: center;
+    border-radius: 15px;
+    border-color: rgba(0, 0, 0, 0.479);
+    border: solid;
+    padding: 5px;
+    width: 100%;
+    height: 100%;
+    font: 'arial';
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+}
+.footer button:hover{
+    background-color: transparent;
+}
+.footer p{
+    color:rgb(163, 160, 160);
+    text-align: center;
+    margin-top: 15px;
+
+}
+

@@ -1,0 +1,77 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(bg-pic4.png);
+    display: flex;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'times new roman';
+}
+.wrapper{
+    width: 420px;
+    background: rgba(83, 81, 81, 0.473);
+    border-radius: 10px;
+    padding: 30px 40px;
+}
+.header{
+    text-align: center;
+    padding: 10px;
+    color: white ;
+}
+.input-box{
+    padding: 10px;
+}
+.input-box input{
+    background-color: rgba(139, 136, 136, 0.336);
+    padding: 10px;
+    width: 100%;
+    height: 100%;
+    border: solid;
+    border-width: 2px;
+    border-radius: 17px;
+    border-color: rgba(0, 0, 0, 0.479);
+    font-style: italic;
+}
+.input-box input::placeholder{
+    color: rgb(163, 160, 160);
+}
+.input-box input:hover{
+    background-color: transparent;
+}
+.pushbutton{
+    padding: 20px;
+    margin: 15px;
+    align-items: center;
+}
+.pushbutton button{
+    background-color: rgba(131, 126, 126, 0.336);
+    align-items: center;
+    border: solid;
+    border-radius: 15px;
+    border-width: 3px;
+    padding: 5px;
+    width: 100%;
+    height: 100%;
+    font: 'arial';
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+}
+.pushbutton button:hover{
+    background-color: transparent;
+}
+.link p{
+    text-align: center;
+    margin-top: 15px;
+    color:rgb(163, 160, 160);
+}
+.link a{
+    color: black;
+}
